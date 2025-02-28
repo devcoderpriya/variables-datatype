@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+char a='p';
+char b='q';
+char c='r';
+printf("%c %c %c",a,b,c);
+return 0;
+}
