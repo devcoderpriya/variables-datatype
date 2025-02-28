@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+float a=70,b=70,c=70;
+float sum=a+b+C;
+float percentage=sum/3;
+printf("%f",percentage);
+return 0;
+}
