@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main ()
+{
+int p=12;
+float q=12.3;
+char r='c';
+printf("%d,%f,%c",p,q,r);
+return 0;
+}
