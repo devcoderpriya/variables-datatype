@@ -6,6 +6,6 @@ int b=22;
 int c=34;
 int sum=a+b+c;
 int average =sum/3;
-printf("%d",percentage);
+printf("%d",average);
 return 0;
 }
