@@ -1,0 +1,15 @@
+#include <stdio.h>
+  int main()
+  {
+char a;
+printf("enter the  1st character");
+scanf("%c",&a);
+ char b;
+printf("enter the 2nd character");
+scanf(" %c",&b);
+char c;
+printf("enter the 2nd character");
+scanf(" %c",&c);
+printf("%c,%c,%c",a,b,c);
+  return 0;
+  }
