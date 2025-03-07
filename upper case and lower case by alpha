@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    char alpha;
+    printf("enter the alphabet :");
+    scanf("%c",&alpha);
+    char sub =alpha-32;
+    printf("uppercase %d",sub);
+    
+    return 0;
+}
