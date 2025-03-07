@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+char a='a';
+printf("%d\n",a);
+char b='A';
+printf("%d\n",b);
+int sub=a-b;
+printf("subtraction of ASCII value is : %d",sub);
+return 0;
+}
