@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the number :");
+    scanf("%d",&a);
+    
+    int reverse=0;
+    int reaminder;
+  int count;
+    while(a!=0)
+    {
+        reaminder=a%10;
+        reverse=reverse*10+reaminder;
+        a=a/10;
+    count=count+1;
+    }
+    printf("%d",reverse);
+    return 0;
+}
+  
