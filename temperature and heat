@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int temperature = 25;
+
+    if (temperature < 20) {
+        printf("Turning on the heater.\n");
+    } else {
+        printf("Heater is off.\n");
+    }
+
+    return 0;
+}        
